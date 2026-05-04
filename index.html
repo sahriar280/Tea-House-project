@@ -30,12 +30,14 @@
 
 <body>
 
-    <section class="flex border border-red-500 container mx-auto">
+    <section
+        class="grid grid-cols-1 md:grid-cols-2 justify-between items-start  container mx-auto ">
 
         <div class="banner-left mt-16 space-y-[30px]">
             <h1 class="text-[80px] font-bold">It's Good <br>
                 tea time at The <br> Tea House</h1>
-            <p class="text-[18px] text-[#777777]">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To
+            <p class=" text-1xl md:text-[18px] text-[#777777]">Tea and Botanical Solutions Supplier Give Optimum <br>
+                Satisfaction To
                 Your Taste Buds.
             </p>
             <button class="py-3 px-5 bg-linear-to-r from-[#FF8938] to-blue-[#FF3B18] rounded-md">Explore More <span><i
@@ -45,16 +47,32 @@
 
 
 
-        <div class="banner-right mt-16 border-3 border-amber-700 bg-amber-300 flex justify-end items-end">
+        <div class="banner-right mt-16">
             <img src="./images/banner.png" alt="Two juice bottle">
-            <div class="rating border-2 border-green-600 w-[255px] h-[100px]  absolute bottom-[8rem]">
-                
-                5.00 <br>Trust Pilot
-                Ratings
+            <div
+                class="rating  w-[225px] h-[100px] flex justify-center items-center rounded-md bg-white shadow-md relative gap-[13px] bottom-[130px] left-[110px]">
+
+                <img class="w-[48px] h-[45.94px]" src="./images/rating-star.png" alt="">
+
+                <div class="">
+                    <h1 class="font-extrabold text-2xl">5.00</h1>
+                    <p class="text-[#777777]">Trust Pilot
+                        Ratings</p>
+                </div>
             </div>
+
 
         </div>
     </section>
+
+   
+
+
+
+
+
+
+
 
 </body>
 
